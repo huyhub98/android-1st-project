@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GPTBH">
+
+    <TextView
+        android:id="@+id/chon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bạn Vừa Chọn GPTBH và Thực Hiện Cuộc Gọi" />
+
+    <RadioButton
+        android:id="@+id/rdGPTBH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GPTBH" />
+
+    <RadioButton
+        android:id="@+id/rdCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thực Hiện Cuộc Gọi" />
+</LinearLayout>
